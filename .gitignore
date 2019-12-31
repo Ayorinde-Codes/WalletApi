@@ -2,3 +2,4 @@
 .env
 app.yaml
 cloud_sql_proxy
+package-lock.json
