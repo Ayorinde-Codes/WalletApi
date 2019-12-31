@@ -1,0 +1,4 @@
+/node_modules
+.env
+app.yaml
+cloud_sql_proxy
