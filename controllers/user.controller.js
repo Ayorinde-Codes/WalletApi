@@ -50,7 +50,6 @@ const create = async function(req, res){
     let wallet_info= {
         InitialAmount: 0.00,
         ActualAmount: 0.00,
-        Interest: 0.00,
         UserId: user.id
     };
         Wallet.create(wallet_info);

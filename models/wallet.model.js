@@ -4,7 +4,6 @@ module.exports = (sequelize, DataTypes) => {
   var Model = sequelize.define('Wallet', {
     ActualAmount: DataTypes.DECIMAL(10, 2),
     InitialAmount: DataTypes.DECIMAL(10, 2),
-    Interest: DataTypes.DECIMAL(10, 2),
   });
 
   Model.associate = function(models){
